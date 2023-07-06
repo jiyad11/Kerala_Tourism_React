@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navtour from './Navtour';
+import Cardcarousel from './Cardcarousel';
+import Tcard from './Tcard';
+import ImageBackground from './ImageBackground';
+import Whatshappening from './Whatshappening';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Navtour />
+    <Cardcarousel />
+    <Tcard />
+    <ImageBackground />
+    <Whatshappening />
   </React.StrictMode>
 );
 

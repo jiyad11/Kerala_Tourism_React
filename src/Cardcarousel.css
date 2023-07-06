@@ -1,0 +1,25 @@
+.text-center {
+    padding: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #003366;
+}
+
+.cardbutton{
+    margin-left: 40rem;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #003366;
+    border-radius: 0%;
+    
+}
+
+.Tcard-img{
+    margin-left: 10px;
+}
+
+
+

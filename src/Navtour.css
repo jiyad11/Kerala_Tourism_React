@@ -1,0 +1,27 @@
+.keralaimg{
+    height: 60px;
+    width: 200px
+}
+
+#navsize {
+font-size: 0.75rem;
+
+
+
+}
+
+.navbar{
+    position: fixed; 
+    width: 100%;
+    z-index: 100;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.div{
+    width: 100vw;
+    height: 100vh;
+}

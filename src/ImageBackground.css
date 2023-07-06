@@ -1,0 +1,74 @@
+.imgback{
+    background-image: url("https://images.pexels.com/photos/16736777/pexels-photo-16736777/free-photo-of-bay-at-scenic-sunset.jpeg?auto=compress&cs=tinysrgb&w=1900") ;
+    
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 5%;
+    text-align: center;
+   
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+.Imgcard{
+    width:400px;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0%;
+}
+
+.cardimg{
+    border-radius: 0%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardT{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0%;
+    color: white;
+    padding: 10px;
+    background-color: rgb(51, 50, 50, 0.7);
+}
+
+.Btn-activity{
+    background-color: #003366;
+    border-radius: 0%;
+    margin-top: 50px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.sp{
+    margin-left: 20%;
+}
+
+.P{
+    margin-left: 20%;
+}
+
+.H{
+    text-align: center;
+}
+
+.btn-news{
+    background-color: #003366;
+    border-radius: 0%;
+    margin-left: 47%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 0;
+}
