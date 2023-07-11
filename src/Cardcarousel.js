@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, CardGroup, Carousel, Col, Row } from 'react-bootstrap'
+import { Button, Card, CardGroup, Carousel, Col, Container, Row } from 'react-bootstrap'
 import './Cardcarousel.css';
 
 function Cardcarousel() {
@@ -15,32 +15,41 @@ function Cardcarousel() {
   const arrow = '>'
   return (
     <div>
+      <Container>
+      
       <h2 className='text-center'>EXPERIENCE KERALA</h2>
+      <Container>
         
           <Row>
             {images.map((i)=>{
               return(
-                <Col>
+                <Col lg={2} md={4}>
            
             
             <Card className='Tcard-img'>
             
-              <Card.Img src={i.image}/>
+              <Card.Img  src={i.image}/>
+              <div className='overlay'>
+                <div className='overlay-text'>hi hiw are youe</div>
+              </div>
               </Card>
-              
-             
+    
+                </Col>
             
-            </Col>
               )
             }
             )}
+           
             </Row>
+            </Container>
+            <Button  className='cardbutton'>FIND MORE EXPERIENCE {arrow}</Button>
             
-              <Button  className='cardbutton'>FIND MORE EXPERIENCE {arrow}</Button>
+            
+              
               
             
        
-        
+            </Container>
     </div>
   )
 }

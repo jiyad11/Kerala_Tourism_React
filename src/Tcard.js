@@ -32,7 +32,7 @@ function Tcard() {
             <Card className='Tcard'>
             
               <Card.Img className='t-img' src={i.image}/>
-              <Card.Title className='Tspan'>{i.title}</Card.Title>
+              <Card.Title className='T-title'>{i.title}</Card.Title>
               </Card>
              
             

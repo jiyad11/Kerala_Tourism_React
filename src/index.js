@@ -8,6 +8,11 @@ import Cardcarousel from './Cardcarousel';
 import Tcard from './Tcard';
 import ImageBackground from './ImageBackground';
 import Whatshappening from './Whatshappening';
+import Tourpackage from './Tourpackage';
+import Planyourtrip from './Planyourtrip';
+import PhotoGallery from './PhotoGallery';
+import Connect from './Connect';
+import FooterSection from './FooterSection';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +24,11 @@ root.render(
     <Tcard />
     <ImageBackground />
     <Whatshappening />
+    <Tourpackage />
+    <Planyourtrip />
+    <PhotoGallery />
+    <Connect />
+    <FooterSection />
   </React.StrictMode>
 );
 

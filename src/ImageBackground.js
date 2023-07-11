@@ -19,8 +19,8 @@ function ImageBackground() {
 <Row>
     {images.map((i)=>{
         return(
-            <Col lg={4} md={4}>
-            <Card className='Imgcard'>
+            <Col lg={4} md={6}>
+            <Card className='Icard'>
                 <Card.Img className='cardimg' src={i.image} />
                 <Card.Title className='cardT'>{i.name}</Card.Title>
             </Card>
@@ -33,7 +33,8 @@ function ImageBackground() {
 </section>
 <section>
     <h1 className='H'>What's New</h1>
-    <p className='P'>Domestic Trade Fairs 2023-24 | Register Now <span className='sp'>International Trade Fair | May 2023</span></p>
+    <p className='P'>International Trade Fairs and Roadshows | Sep 2023 - Mar<span className='sp1'>Domestic Trade Fairs 2023-24 | Register Now</span></p>
+    <p className='P'>2024 |Register Now</p>
     <Button className='btn-news'>More News</Button>
 </section>
     </div>

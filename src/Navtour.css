@@ -14,6 +14,7 @@ font-size: 0.75rem;
     position: fixed; 
     width: 100%;
     z-index: 100;
+    background-color: rgba(3, 3, 3, 0.5);
 }
 
 a{

@@ -1,0 +1,78 @@
+.divback-2{
+    background-color: #e3e7f1;
+    
+    
+}
+
+#tour-card{
+    margin-left: -24px;
+    border-radius: 0;
+}
+
+.div-heading{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 40px;
+    color: #003366;
+}
+
+.p-head{
+    margin-top: 20px;
+    color: black;
+}
+
+.card-t{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.card-text{
+    position: absolute;
+    margin-top: 55px;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+/* .card-f{
+    position: absolute;
+    border: #990000 solid 2px;
+    background-color: #990000;
+    color: white;
+    margin-left: 55%;
+    margin-top: 40%;
+    font-family: sans-serif;
+    font-size: small;
+    border-radius: 0;
+    
+} */
+
+.sp2 {
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 43%;
+    border: #990000 solid 2px;
+    background-color: #990000;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#btn-findmore{
+    padding-top: 10px;
+    padding-bottom: 10px;
+ padding-left: 40px;
+ padding-right: 40px;
+ background-color: #003366;
+ font-size: medium;
+ margin-top: 30px;
+ margin-bottom: 50px;
+}
+
+.btn-pos{
+    text-align: center;
+}

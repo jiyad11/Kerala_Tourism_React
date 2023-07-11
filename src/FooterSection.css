@@ -1,0 +1,46 @@
+
+.col-li1 li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.col-li2 li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.col-li3 li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: serif;
+}
+.col-li4 li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.col-li5 li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.col-li6 li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.footer1{
+    margin-top: 50px;
+}
+
+.h4-li1,.h4-li2,.h4-li3,.h4-li4,.h4-li5,.h4-li6{
+    color: #003366;
+    font-family: sans-serif;
+}
+
+
